@@ -1,0 +1,12 @@
+name: project1env
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - numpy
+  - jupyter
+  - geopandas
+  - pyarrow
+  - seaborn
+  - statsmodels
+prefix: /home/jnakos/miniconda3/envs/project1env

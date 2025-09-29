@@ -1,0 +1,4 @@
+*.sh
+*.parquet
+*.csv
+*.crc
