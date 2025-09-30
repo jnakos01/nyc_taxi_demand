@@ -1,4 +1,22 @@
-### Environment Setup
+## About the project
+### Taxi Demand Modelling
+
+This project investigates geospatial and temporal modelling of hourly NYC Yellow Taxi demand using 2024 data. Exploring how taxi demand interacts with subway ridership and weather conditions (particularly rainfall), focusing on spatial patterns in Manhattan.
+
+Two predictive models were built:
+
+- Poisson Regression (GLM) – interpretable but limited by overdispersion.
+
+- Gradient Boosted Trees (GBT) – higher accuracy, capturing non-linear relationships.
+
+### Findings
+Findings show that subway usage anomalies and rainy periods amplify taxi demand in certain areas. 
+Recommendations are provided for the NYC Taxi & Limousine Commission (TLC) to optimise fleet allocation, reduce wait times, and improve driver efficiency.
+A summary of the methodology and findings can be found in report.pdf.
+
+
+
+## Environment Setup
 
 Prereqs: Install Conda or Miniconda. 
 
@@ -40,7 +58,7 @@ conda remove -n project1env --all
 ```
 
 
-### Usage Instructions:
+## Usage Instructions:
 Step 1: Download prereq data (Subway + Lookups) from: 
 https://drive.google.com/file/d/1uyMaVqJIwgWSFHeiuK-LRoZTY7OJELl9/view?usp=sharing
 This data is free to redistribute for non-commercial use.
@@ -52,5 +70,3 @@ If missing, download and insert the /processing_info folder from GitHub into the
 Before running, data should contain 3 non empty subfolders: 'import_csvs', 'ny_boroughs', 'processing_info'.
 
 Step 3: Click 'run all' in each notebook in order: import, taxi_preprocessing, subway_preprocessing, weather_preprocessing, analysis, then modelling. 
-
-A report on the findings is saved as "report.pdf". 
