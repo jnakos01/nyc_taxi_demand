@@ -10,7 +10,7 @@ Two predictive models were built:
 - Gradient Boosted Trees (GBT) – higher accuracy, capturing non-linear relationships.
 
 ### Findings
-Findings show that subway usage anomalies and rainy periods amplify taxi demand in certain areas. 
+Identified that subway usage anomalies and rainy periods amplify taxi demand in certain areas. 
 Recommendations are provided for the NYC Taxi & Limousine Commission (TLC) to optimise fleet allocation, reduce wait times, and improve driver efficiency.
 A summary of the methodology and findings can be found in report.pdf.
 
