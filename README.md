@@ -12,7 +12,7 @@ Two predictive models were built:
 ### Findings
 Identified that subway usage anomalies and rainy periods amplify taxi demand in certain areas. 
 Recommendations are provided for the NYC Taxi & Limousine Commission (TLC) to optimise fleet allocation, reduce wait times, and improve driver efficiency.
-A summary of the methodology and findings can be found in report.pdf.
+**A summary of the methodology and findings can be found in report.pdf.**
 
 
 
